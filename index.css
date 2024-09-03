@@ -1,0 +1,58 @@
+/* CSS Rule Set */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: "Alegreya", serif;
+}
+
+
+
+/* navbar starts */
+#navbar{
+    background-color:darkblue;
+    
+}
+
+.nav-item .nav-link{   
+    margin-left: 10px;
+    font-weight: bold;    
+    transition: 0.5s;
+}
+
+
+/* navbar ends */
+
+
+/* landing section starts */
+.landing{
+    background-image:url(./images/backdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#tools{
+    background-image:url(./images/art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text{
+    color: white;
+}
+
+/* landing section ends */
+
+/* Project Section Strat */
+.imgs-project{  
+    filter: brightness(50%);
+}
+
+
+
+
+
+/* foot start */
+.footer{
+    background-color: blue;
+}
