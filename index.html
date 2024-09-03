@@ -27,7 +27,7 @@
   <body>
     
       <!--Nav Bar Starts  -->
-          <nav  class="navbar navbar-expand-lg navbar-dark" id="navbar">
+          <nav  class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand">Susan</a>          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="bar">
@@ -36,7 +36,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
                 <li class= "nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#landing">Home</a>
                 </li>
                 <li class= "nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
@@ -60,7 +60,7 @@
       <!-- Nav Bar Ends -->
 
       <!-- Landing Page Start -->    
-        <section class="landing">      
+        <section id="landing">      
             <div class="container-fluid">
                 <div class="row justify-content-center align-items-center py-4 py-lg-5" >
                     <div class="col-10 col-md-3 p-3 py-lg-5">
@@ -83,7 +83,7 @@
         <div id= "projects">
             <div class= "container">
                 <div class= "row ">              
-                    <h1 class="mt-2  text-center p-5" >My Projects</h1>
+                    <h1 class="mt-2  text-center p-5 title-font" >My Projects</h1>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -129,17 +129,19 @@
 
          <!-- Project Section Ends -->
            <!-- Begining of Tools -->
+           
+            <h1 class="text-center mt-5 title-font">Tools I Use</h1>
+            <div class="jumbotron mt-3  d-flex flex-column justify-content-center align-items-center tools-all"></div>
         <section id="tools">
-            <div class="jumbotron my-3 d-flex flex-column justify-content-center align-items-center tools-all">
-                <h3 class="text-center my-5">Tools I Use</h3>
-                <div class="d-flex flex-wrap justify-content-center pb-5 mb-4">
+            
+                <div class="d-flex flex-wrap justify-content-center pt-2  mb-4">
                     <!-- <img class="m-1 rounded" width="80" src="./images/js-file.png"> -->
                     <img class="m-1 rounded" width="80" src="./images/bootstrap.png">
                     <img class="m-1 rounded" width="80" src="./images/css-3.png">
                     <img class="m-1 rounded" width="80" src="./images/github.png">
                     <img class="m-1 rounded" width="80" src="./images/html.png">
                 </div>
-                <div class="d-flex flex-wrap justify-content-center mb-4">
+                <div class="d-flex flex-wrap justify-content-center pb-2 mb-4">
                     <img class="m-1 rounded" width="80" src="./images/photoshop.png">
                     <img class="m-1 rounded" width="80" src="./images/physics.png">
                     <img class="m-1 rounded" width="80" src="./images/premiere-pro.png">
@@ -151,23 +153,25 @@
             <!-- end of tools -->
 
             <!-- Start of contact  -->
-        <section id="contact">
-            
-            <h3 class="text-center my-5">Contact</h3>
+            <h1 class="text-center mt-5 title-font">Contact</h1> 
             <div class="d-flex flex-wrap justify-content-center mb-4">
-                <a href="https://www.linkedin.com/in/susan-shakya-3a18141a1/" target="_blank">
-                    <img class="m-1" width="40"
-                        src="./images/linkedin.png">
-                </a>
-                <a href="https://www.facebook.com/sushan.shakya.98/" target="_blank">
-                    <img class="m-1" width="40"
-                        src="./images/facebook.png">
-                </a>
-                <a href="https://www.instagram.com/susan_shakya93/" target="_blank">
-                    <img class="m-1" width="40"
-                        src="./images/instagram.png">
-                </a>
-            </div>
+              <a href="https://www.linkedin.com/in/susan-shakya-3a18141a1/" target="_blank">
+                  <img class="m-1" width="40"
+                      src="./images/linkedin.png">
+              </a>
+              <a href="https://www.facebook.com/sushan.shakya.98/" target="_blank">
+                  <img class="m-1" width="40"
+                      src="./images/facebook.png">
+              </a>
+              <a href="https://www.instagram.com/susan_shakya93/" target="_blank">
+                  <img class="m-1" width="40"
+                      src="./images/instagram.png">
+              </a>
+          </div>
+            <section id="contact">
+            
+                       
+           
 
             <div class="row">
                 <div class="col-sm-3 my-4 col-md-6 col-lg-6">
@@ -189,7 +193,7 @@
                             <label>Message</label>
                             <textarea class="form-control"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-block" id="contact2">Send</button>
+                        <button type="submit" class="btn btn-block border p-2 mt-2 border-dark" id="contact2">Send</button>
                     </form>
                 </div>
             </div>
